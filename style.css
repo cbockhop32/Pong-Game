@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.main-container {
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: #993300;
+   
+
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    width: 1200px
+}
+
+header .player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header span {
+    font-weight: 2rem;
+}
+
+header p {
+    color: black;
+    margin: 1rem 0 0 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin: 1rem 0 0 0;
+    padding: 0 3rem;
+}
+
+.btn-container {
+    padding: 1rem 0;
+}
+
+.btn-play {
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif; 
+    background-color:#336699;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 0.4rem 1.5rem;
+    border-radius: 10px;
+
+}
+
+.btn-play:focus {
+    outline: none;
+
+}
+
+.btn-play:active {
+    transform: scale(0.95)
+}
+
+.court-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  
+    
+}
+
+.court-container .guide {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center  ;
+    align-items: center;
+    margin: 0 2rem;
+    
+    
+
+}
+
+.court-container .guide i {
+    color: #fff;
+}
+
+.court-container .guide img {
+    transform: scale(0.85);
+  
+}
+
+.court-container .guide i:first-of-type {
+    padding-bottom: 2rem;
+}
+
+.court-container .guide i:last-of-type {
+    padding-top: 2rem;
+}
+
+
+
+canvas {
+    background-color: #40A14C;
+    border: 10px solid #fff;
+ 
+}
+
